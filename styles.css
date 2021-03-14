@@ -1,0 +1,175 @@
+:root {
+    --main-text-color: #757575;
+    --bg-color: #2F303A;
+    --dark-bg-text-color: #FFFFFF;
+    --section-title-color: #212121;
+    --accent-color: #2196F3;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    line-height: 1,71;
+    letter-spacing: 0.03em;
+}
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+.link:hover {
+    color: var(--accent-color);   
+}
+.list {
+    list-style: none;
+}
+/*Логотип header*/
+.logo-header {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.logo-web-header {
+    color: var(--accent-color);
+}
+.logo-studio-header {
+    color: black
+}
+/*Логотип footer*/
+.logo-footer {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+.logo-web-footer {
+    color: var(--accent-color);
+}
+.logo-studio-footer {
+    color: white;
+}
+/*Секция "меню"*/
+.menu {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+.link.current:hover {
+  color: var(--accent-color);  
+}
+/*Секция заказать услугу*/
+.section-order-services {
+    background-color: var(--bg-color);
+}
+.page-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.section-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.order-services-button {
+    color: white;
+    background-color: var(--accent-color);  
+}
+.order-services-button:focus {
+    color: white;
+}
+
+/*Секция "наши преимущества"*/
+.section-our-benefits-title {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+.section-our-benefits-text {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+/*Секция "наша команда"*/
+.team-member {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.team-member-speciality {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;;
+}
+/*Футер*/
+.footer {
+    background-color: var(--bg-color);
+}
+.address {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.contacts {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+/*Страница Портфолио*/
+.button-portfolio {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;   
+}
+.button:focus {
+    color: white;
+    background-color: var(--accent-color);
+}
+.portfolio-menu-header {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;   
+}
+.portfolio-menu-text {
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: #757575;
+    }
