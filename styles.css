@@ -156,7 +156,7 @@ body {
     letter-spacing: 0.03em;
     color: #212121;   
 }
-.button:focus {
+.button-portfolio:focus {
     color: white;
     background-color: var(--accent-color);
 }
